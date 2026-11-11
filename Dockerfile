@@ -1,4 +1,5 @@
-FROM eclipse-temurin:21-jdk AS build
+
+FROM eclipse-temurin:17-jdk AS build
 
 WORKDIR /app
 
@@ -7,7 +8,7 @@ COPY backend/ .
 RUN chmod +x gradlew
 RUN ./gradlew bootJar --no-daemon
 
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:17-jre
 
 WORKDIR /app
 
