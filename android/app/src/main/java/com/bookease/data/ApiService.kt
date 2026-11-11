@@ -22,7 +22,7 @@ object RetrofitClient {
 
     // Replace this with your deployed backend HTTPS URL.
     private const val BASE_URL =
-        "https://YOUR-BACKEND-ADDRESS/"
+        "https://bookease-ljx6.onrender.com/"
 
     val api: ApiService by lazy {
         Retrofit.Builder()
