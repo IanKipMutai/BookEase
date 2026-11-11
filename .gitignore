@@ -1,0 +1,26 @@
+
+# Gradle
+.gradle/
+**/.gradle/
+build/
+**/build/
+.kotlin/
+**/.kotlin/
+
+# Android
+.idea/
+**/.idea/
+local.properties
+**/local.properties/
+
+# Generated files
+*.apk
+*.aab
+*.class
+*.jar
+*.mv.db
+*.trace.db
+
+# Secrets
+.env
+.env.*

@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://bookease_admin:zxcvbnml@cluster0.v8mgdey.mongodb.net/
+      database: bookease
